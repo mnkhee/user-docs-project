@@ -1,9 +1,18 @@
 site_name: JavaScript CRD Tutorial
-extra_css: [template.css]
 theme:
+  features:
+    - toc.follow
   name: material
   palette:
     primary: light-green
 nav:
-  - 'introduction.md'
-  - 'glossary.md'
+  - 'Home':
+    - 'Introduction': 'introduction.md'
+    - 'Intended Users': 'introduction#intended-users'
+    - 'Target Audience': 'introduction#target-audience'
+    - 'Software Requirements': 'introduction#software-requirements'
+    - 'Typographical Conventions': 'introduction#typographical-conventions'
+  - 'Creating data on local storage': '/tutorials/creating.md'
+  - 'Reading data on local storage': '/tutorials/reading.md'
+  - 'Deleting data on local storage': '/tutorials/deleting.md'
+  - 'Glossary': 'glossary.md'
