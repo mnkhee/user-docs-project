@@ -1,10 +1,10 @@
 site_name: JavaScript CRD Tutorial
-theme:
-  features:
-    - toc.follow
-  name: material
-  palette:
-    primary: light-green
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - 'Home':
     - 'Introduction': 'introduction.md'
@@ -16,3 +16,14 @@ nav:
   - 'Reading data on local storage': '/tutorials/reading'
   - 'Deleting data on local storage': '/tutorials/deleting'
   - 'Glossary': 'glossary.md'
+
+theme:
+  features:
+    - toc.follow
+  icon:
+    admonition:
+      note: material/information
+      warning: material/alert
+  name: material
+  palette:
+    primary: light-green

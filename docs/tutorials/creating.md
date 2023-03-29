@@ -3,14 +3,22 @@
 
 ## Overview
 
-This section will focus on creating, and storing unique data on your web browser.
+This section will focus on creating and storing unique data on your web browser.
 
 ## Setup
 
-1. Create a folder on your computer (folder can have any name)
-2. Open the folder on VSC
-3. Create an HTML file using file > new file; name it index.js
-4. Create a Javascript file using file > new file; name it index.js (**NOTE:** it is recommended to name this file the same as your HTML file)
+1. Create a folder on your computer (the folder can have any name).
+2. Open VSC.
+3. On the top left corner of VSC, click on File > Open Folder, and select your newly created folder.
+    <br> ![open-folder](/images/creating/open-folder.png)
+
+4. Create an HTML file by clicking on File > New File..., and name it index.html.
+    <br> ![create-file](/images/creating/create-file.png)
+
+5. Create a Javascript file using file > new file; name it index.js (**NOTE:** it is recommended to name this file the same as your HTML file).
+
+    !!! note "Info"
+        You can name the JavaScript file any valid filename, however it is convention to name it with the same name as the HTML file you plan to link it to.
 
 ## Creating and Storing Data
 
