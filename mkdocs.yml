@@ -1,5 +1,8 @@
-site_name: JavaScript CRD Tutorials
+site_name: JavaScript CRD Tutorial
 theme:
   name: material
   palette:
     primary: light-green
+nav:
+  - 'introduction.md'
+  - 'glossary.md'

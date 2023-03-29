@@ -10,9 +10,4 @@ Welcome! This page is designed to help you learn how to create, read, and delete
 
 ## Software Requirements
 
-<<<<<<< HEAD
-- [**Visual Studio Code**](https://code.visualstudio.com/download)
-=======
 - [**Visual Studio Code**](https://code.visualstudio.com/download) Version 1.70 or later
-
->>>>>>> c6c36f6b1dbfa00889fddac66aa5baef0ca92f49
