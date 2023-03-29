@@ -1,4 +1,5 @@
 site_name: JavaScript CRD Tutorial
+extra_css: [template.css]
 theme:
   name: material
   palette:

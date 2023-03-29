@@ -8,6 +8,10 @@ Welcome! This page is designed to help you learn how to create, read, and delete
 
 ## Intended Users
 
+## Target Audience
+
 ## Software Requirements
+
+## Typographical Conventions
 
 - [**Visual Studio Code**](https://code.visualstudio.com/download) Version 1.70 or later
