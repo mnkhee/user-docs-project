@@ -12,7 +12,7 @@ nav:
     - 'Target Audience': 'introduction#target-audience'
     - 'Software Requirements': 'introduction#software-requirements'
     - 'Typographical Conventions': 'introduction#typographical-conventions'
-  - 'Creating data on local storage': 'tutorials/creating'
+  - 'Creating data on local storage': '/tutorials/creating'
   - 'Reading data on local storage': '/tutorials/reading'
   - 'Deleting data on local storage': '/tutorials/deleting'
   - 'Glossary': 'glossary.md'
