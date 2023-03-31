@@ -43,7 +43,7 @@ This section will focus on creating and storing unique data on your web browser.
     ```js
     function submitInput() {
     var input = document.getElementById("createInput").value;
-    localStorage.setItem(input, JSON.stringify(input));
+    localStorage.setItem("createInput", JSON.stringify(input));
     }
     ```
 
