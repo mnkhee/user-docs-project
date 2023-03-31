@@ -26,13 +26,23 @@ This section will focus on creating and storing unique data on your web browser.
 2. Let Visual Studio Code autofill the HTML file using ‘!’ and enter
 3. In the HTML document head, insert a blank line after line 7.
 4. Link your JavaScript script to your HTML file using the script tag.
-5. Create an input tag within the body of the HTML file. Give it an id attribute ‘createInput’.
-6. Create a button tag right below your input tag. Give it an id attribute ‘createButton’, and put any text inside it.
+
+    ```html
+    <script src='index.js'></script>
+    ```
+
+5. Create an input tag within the body of the HTML file. Give it an **id** attribute ‘createInput’.
+6. Create a button tag right below your input tag. Give it an **id** attribute ‘createButton’, and put any text inside it.
+
+    ```html
+    <button id=’createButton’ onClick=’submitInput’> Click here! </button>
+    ```
+
 7. In your JavaScript file, create a function with the following code block:
 
     ```js
     function submitInput() {
-    var input = document.getElementById(‘createInput’).value;
+    var input = document.getElementById("createInput").value;
     localStorage.setItem(input, JSON.stringify(input));
     }
     ```
@@ -43,4 +53,4 @@ This section will focus on creating and storing unique data on your web browser.
 
 ## Conclusion
 
-by the end of this section, you will have successfully created and stored data on your web browser.
+by the end of this section, you will have successfully created and stored data on your web browsers local storage.
