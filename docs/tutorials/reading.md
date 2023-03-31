@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section will focus on reading and displaying data on your web browsers local storage. <!-- add more stuff here -->
+This section will focus on reading and displaying data on your web browsers local storage. 
 
 ## Setup
 
@@ -49,7 +49,9 @@ These set of instructions will go over how to display the most recent item saved
 5. Hit the 'Click Here!' button to submit unique data into the browser's local storage.
 6. Hit the 'Display data' button to display data to the console.
 7. Open your browser's Developer Tools by pressing F12 or by right clicking at pressing 'Inspect'.
+    <br> ![access-developer-tools](/images/reading/access-developer-tools.png)
 8. Navigate to the console tab
+    <br> ![access-console](/images/reading/access-console.png)
 
 
 ## Display All Local Storage Data to the Console
@@ -73,7 +75,9 @@ These set of instructions will go over how to display everything saved to your b
 4. Hit the 'Click Here!' button to submit unique data into the browser's local storage.
 5. Hit the 'Display data' button to display data to the console.
 6. Open your browser's Developer Tools by pressing F12 or by right clicking at pressing 'Inspect'.
+    <br> ![access-developer-tools](/images/reading/access-developer-tools.png)
 7. Navigate to the console tab
+    <br> ![access-console](/images/reading/access-console.png)
 
 
 ## Conclusion
