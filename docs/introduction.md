@@ -11,7 +11,7 @@ Welcome! These tutorials are designed to help you learn how to create, read, and
 
 ## Target Audience
 
-These tutorials are targeted towards people who are just starting out with web development, or more specifically, JavaScript.
+These tutorials are targeted towards people who are just starting out with web development -- however, people of all levels may follow alongside the tutorials.
 
 ## Software Requirements
 
@@ -26,8 +26,11 @@ The required software for these tutorials are as followed:
 
 Throughout the tutorials, there will be messages designed to give you relevant information.
 
-!!! note "Info"
-    This message is designed to inform you about additional information or tips.
-
 !!! warning "Alert"
     This message is designed to inform you about potential errors or common mistakes.
+
+!!! tip "Important"
+    This message is designed to inform you about an important detail or useful suggestion.
+
+!!! note "Info"
+    This message is designed to inform you about additional non-crucial information or tips.

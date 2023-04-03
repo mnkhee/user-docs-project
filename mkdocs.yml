@@ -24,6 +24,7 @@ theme:
     admonition:
       note: material/information
       warning: material/alert
+      tip: material/star-box
   name: material
   palette:
     primary: light-green
