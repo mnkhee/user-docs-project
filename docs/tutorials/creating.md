@@ -81,8 +81,8 @@ This section will focus on creating and storing unique data on your web browser.
 
     ```js
     function submitInput() {
-    var input = document.getElementById(‘createInput’).value;
-    localStorage.setItem(input, JSON.stringify(input));
+    var input = document.getElementById("createInput").value;
+    localStorage.setItem("createInput", JSON.stringify(input));
     }
     ```
 
@@ -92,4 +92,4 @@ This section will focus on creating and storing unique data on your web browser.
 
 ## Conclusion
 
-by the end of this section, you will have successfully created and stored data on your web browser.
+by the end of this section, you will have successfully created and stored data on your web browsers local storage.
