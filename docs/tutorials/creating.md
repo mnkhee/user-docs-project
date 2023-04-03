@@ -15,18 +15,18 @@ This section will focus on creating and storing unique data on your web browser.
 4. Create an HTML file by clicking on File > New File..., and name it index.html.
     <br> ![create-file](/images/creating/create-file.png)
 
-5. Create a Javascript file using File > New File; name it index.js (**NOTE:** it is recommended to name this file the same as your HTML file).
+5. Create a Javascript file using File > New File; name it index.js.
 
-    !!! note "Info"
+    !!! tip "Important"
         You can name the JavaScript file any valid filename, however it is recommended to name it with the same name as the HTML file you plan to link it to. <br>
-        For the remainder of this tutorial, we will be naming variables and files
+        **For the remainder of this tutorial, we will be referring to files and variables as named in this tutorial. Copying our code blocks may result in errors if you decide to name the files/variables on your own volition.**
 
 ## Creating and Storing Data
 
 1. Open the HTML file by double clicking it on the explorer menu. If the menu is not visible, click on View > Explorer.
     <br> ![explorer-menu](/images/creating/explorer-menu.png)
 
-    !!! tip "Important"
+    !!! info "Tip"
         From steps 2 to 6, you may choose to follow the steps or you may copy the code block at the end of step 6.
 
 2. In the code editor window, type '!', and hit enter.
@@ -55,10 +55,10 @@ This section will focus on creating and storing unique data on your web browser.
 3. In the HTML document head, insert a blank line after line 7.
 4. Link your JavaScript file you created during the tutorial setup.
 5. Create an input tag within the body of the HTML file. Give it an id attribute 'createInput'.
-6. Create a button tag right below your input tag. Give it an id attribute 'createButton', and put any text inside it.
+6. Create a button tag right below your input tag. Give it the id attribute 'createButton', and the onClick attribute 'submitInput()', and put any text inside it.
 
     ```html
-        <!DOCTYPE html>
+    <!DOCTYPE html>
 
     <html lang="en">
 
@@ -67,11 +67,12 @@ This section will focus on creating and storing unique data on your web browser.
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <script src="index.js"></script>
     </head>
 
     <body>
         <input id="createInput"></input>
-        <button id="createButton">Click me!</button>
+        <button id="createButton" onClick="submitInput()">Click me!</button>
     </body>
 
     </html>
@@ -81,14 +82,23 @@ This section will focus on creating and storing unique data on your web browser.
 
     ```js
     function submitInput() {
-    var input = document.getElementById("createInput").value;
-    localStorage.setItem("createInput", JSON.stringify(input));
+        var input = document.getElementById("createInput").value;
+        localStorage.setItem(input, JSON.stringify(input));
     }
     ```
 
-8. Open your HTML file by dragging it onto a compatible browser.
+8. Open your HTML file by dragging it into a compatible browser.
 9. Type something into the input box.
 10. Hit the button to submit the unique data into the browser’s local storage.
+
+    ??? note "Checking local storage on Google Chrome"
+        To check local storage data, you can right-click on a webpage and click on 'Inspect'.
+        <br> ![inspect-one](/images/creating/inspect-1.png)
+        <br> This will open up a tab showing the HTML code of the webpage you are on. Click on the '>>' button, and select 'Application'.
+        <br> ![inspect-two](/images/creating/inspect-2.png)
+        <br> Expand the 'Local Storage' tab of the 'Storage' section, and click on your local host address.
+        <br> ![inspect-three](/images/creating/inspect-3.png)
+        <br> If you have data stored on your browser's local storage, then it should display on the right.
 
 ## Conclusion
 
