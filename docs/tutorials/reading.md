@@ -14,8 +14,26 @@ This section will focus on reading and displaying data from your web browser's l
     At this point, you should have this in your HTML file.
 
     ```html
-    <button id="displayData" onClick="displayOutput()">Display data</button>
-    <div id="output"></div>
+    <!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <input id="createInput"></input>
+        <button id="createButton" onClick="submitInput()">Click me!</button>
+        <button id="displayData" onClick="displayOutput()">Display data</button>
+        <div id="output"></div>
+    </body>
+
+    </html>
     ```
 
 2. Define a function called 'displayOutput' in your Javascript file.
