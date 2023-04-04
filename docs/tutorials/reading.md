@@ -27,7 +27,7 @@ This section will focus on reading and displaying data from your web browser's l
     </head>
 
     <body>
-        <input id="createInput"></input>
+        <input id="createInput">
         <button id="createButton" onClick="submitInput()">Click me!</button>
         <button id="displayData" onClick="displayOutput()">Display data</button>
         <div id="output"></div>
@@ -52,7 +52,7 @@ These set of instructions will go over how to display the most recent item saved
 
     ```js
     function displayOutput() {
-        var data = JSON.parse(localStorage.getItem("createInput"));
+        var data = JSON.parse(localStorage.getItem(document.getElementById("createInput").value));
     }
     ```
 
@@ -60,7 +60,7 @@ These set of instructions will go over how to display the most recent item saved
 
     ```{.js .annotate hl_lines="3"}
     function displayOutput() {
-        var data = JSON.parse(localStorage.getItem("createInput"));
+        var data = JSON.parse(localStorage.getItem(document.getElementById("createInput").value));
         console.log(data);
     }
     ```
@@ -84,7 +84,7 @@ These set of instructions will go over how to display everything saved to your b
 
     ```js
     function displayOutput() {
-        for (var i = 0; i < localStorage.length; i++>) {
+        for (var i = 0; i < localStorage.length; i++) {
             var key = localStorage.key(i);
             var data = localStorage.getItem(key);
             console.log(data);
