@@ -58,7 +58,7 @@ These set of instructions will go over how to display the most recent item saved
 
 2. Display data to the console by using console.log.
 
-    ```js
+    ```{.js .annotate hl_lines="3"}
     function displayOutput() {
         var data = JSON.parse(localStorage.getItem("createInput"));
         console.log(data);
@@ -71,8 +71,10 @@ These set of instructions will go over how to display the most recent item saved
 6. Hit the 'Display data' button to display data to the console.
 7. Open your browser's Developer Tools by pressing F12 or by right clicking at pressing 'Inspect'.
     <br> ![access-developer-tools](/images/reading/access-developer-tools.png)
-8. Navigate to the console tab
+8. Navigate to the console tab.
     <br> ![access-console](/images/reading/access-console.png)
+
+    At this point, you will see the latest bit of data stored in your browser's local storage.
 
 ## Display All Local Storage Data to the Console
 
@@ -96,8 +98,10 @@ These set of instructions will go over how to display everything saved to your b
 5. Hit the 'Display data' button to display data to the console.
 6. Open your browser's Developer Tools by pressing F12 or by right clicking at pressing 'Inspect'.
     <br> ![access-developer-tools](/images/reading/access-developer-tools.png)
-7. Navigate to the console tab
+7. Navigate to the console tab.
     <br> ![access-console](/images/reading/access-console.png)
+
+    At this point, you will see all data stored in your browser's local storage.
 
 ## Conclusion
 
