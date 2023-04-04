@@ -2,11 +2,14 @@
 
 ## Overview
 
-This section will focus on reading and displaying data on your web browsers local storage. 
+This section will focus on reading and displaying data from your web browser's local storage.
+!!! tip "Pre-requisites"
+    This tutorial is a continuation on the [**creating tutorial**](creating.md). If you have not completed it, you will need to have setup data inside your browser's local storage on your own.
+    <br> *There is no guarantee that the data you have entered will be compatible with our code*. Continue at your own risk!
 
 ## Setup
 
-1. Create a button tag below the previous button tag in your HTML file. Give it an **id** attribute 'displayData', an **onClick** event attribute 'displayOutput', and put any text inside.
+1. Create a button tag below the previous button tag in your HTML file. Give it an id attribute 'displayData', an onClick event attribute 'displayOutput', and put any text inside.
 
     At this point, you should have this in your HTML file.
 
@@ -53,7 +56,6 @@ These set of instructions will go over how to display the most recent item saved
 8. Navigate to the console tab
     <br> ![access-console](/images/reading/access-console.png)
 
-
 ## Display All Local Storage Data to the Console
 
 These set of instructions will go over how to display everything saved to your browsers local storage.
@@ -78,7 +80,6 @@ These set of instructions will go over how to display everything saved to your b
     <br> ![access-developer-tools](/images/reading/access-developer-tools.png)
 7. Navigate to the console tab
     <br> ![access-console](/images/reading/access-console.png)
-
 
 ## Conclusion
 
