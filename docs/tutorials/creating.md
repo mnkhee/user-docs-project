@@ -3,7 +3,7 @@
 
 ## Overview
 
-This section will focus on creating and storing unique data on your web browser.
+This section will focus on creating and storing unique data -- the C of **C**RUD, an essential skill for front-end web development. To learn this skill, you will be applying it onto your browser's local storage.
 
 ## Setup
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section will focus on the process of deleting data stored in your browser's local storage.
+This section will focus on reading data -- the D of CRU**D**. To learn this skill, you will be applying it onto the data that currently exists inside your browser's local storage.
 !!! tip "Pre-requisites"
     This tutorial is a continuation on the [**reading tutorial**](reading.md). If you have not completed it, you will need to have setup data inside your browser's local storage on your own.
     <br> **There is no guarantee that the data you have entered on your own will be compatible with our code**. Continue at your own risk!

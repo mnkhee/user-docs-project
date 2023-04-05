@@ -1,7 +1,9 @@
 # Introduction
 
-Welcome! These tutorials are designed to help you learn how to create, read, and delete data on your browser's local storage with JavaScript using the source-code editor [**Visual Studio Code**](https://code.visualstudio.com/) (VSC). By the end of these tutorials, you will gain an understanding of how data can be manipulated on your browser's local storage using JavaScript.
+Welcome! These tutorials are designed to help you learn how to create, read, and delete data on your browser's local storage with JavaScript using the source-code editor [**Visual Studio Code**](https://code.visualstudio.com/) (VSC) -- 3 of the 4 major functions for manipulating data, CRUD. By the end of these tutorials, you will gain an understanding of how data can be manipulated on your browser's local storage using JavaScript.
 
+> **CRUD** stands for create, read, update, and delete.
+>
 > **HTML5** (Hyper Text Markup Language) is a markup language used to create, structure, and present content to a web browser.
 >
 > **JavaScript** is a scripting language which allows developers to build web based applications.

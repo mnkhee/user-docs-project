@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section will focus on reading and displaying data from your web browser's local storage.
+This section will focus on reading data -- the R of C**R**UD. To learn this skill, you will be applying it onto the data that currently exists inside your browser's local storage.
 !!! tip "Pre-requisites"
     This tutorial is a continuation on the [**creating tutorial**](creating.md). If you have not completed it, you will need to have setup data inside your browser's local storage on your own.
     <br> **There is no guarantee that the data you have entered on your own will be compatible with our code**. Continue at your own risk!
@@ -37,7 +37,7 @@ This section will focus on reading and displaying data from your web browser's l
     </html>
     ```
 
-3. Define a function called 'displayOutput' in your Javascript file.
+3. Define a function called 'displayOutput' in your JavaScript file.
 
     ```js
     function displayOutput() {
