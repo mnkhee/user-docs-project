@@ -32,7 +32,6 @@ This section will focus on reading and displaying data from your web browser's l
         <input id="createInput">
         <button id="createButton" onClick="submitInput()">Click me!</button>
         <button id="displayData" onClick="displayOutput()">Display data</button>
-        <div id="output"></div>
     </body>
 
     </html>
