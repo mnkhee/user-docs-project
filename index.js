@@ -10,3 +10,9 @@ function displayOutput() {
         console.log(data);
     }
 }
+
+function removeItem() {
+    var item = document.getElementById('createInput');
+    localStorage.removeItem(item);
+    window.location.reload();
+}
