@@ -16,6 +16,7 @@ nav:
   - 'Reading data on local storage': '/tutorials/reading'
   - 'Deleting data on local storage': '/tutorials/deleting'
   - 'Glossary': 'glossary.md'
+  - 'Troubleshooting Guide': 'troubleshooting.md'
 
 theme:
   features:
