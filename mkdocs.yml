@@ -6,12 +6,7 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - 'Home':
-    - 'Introduction': 'introduction.md'
-    - 'Intended Users': 'introduction#intended-users'
-    - 'Target Audience': 'introduction#target-audience'
-    - 'Software Requirements': 'introduction#software-requirements'
-    - 'Typographical Conventions': 'introduction#typographical-conventions'
+  - 'Introduction': 'index.md'
   - 'Creating data on local storage': '/tutorials/creating'
   - 'Reading data on local storage': '/tutorials/reading'
   - 'Deleting data on local storage': '/tutorials/deleting'
