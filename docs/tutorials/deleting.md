@@ -6,7 +6,7 @@ This section will go focus on deleting data from your browser's local storage.
 
 ## Setup
 
-1. Create a button tag below the previous button tag in your HTML file. Give it an id attribute 'removeItem', an onClick event attribute 'removeItem()', and put any text inside.
+1. Create a button tag below the previous button tag in your HTML file. Give it an **id** attribute 'removeItem', an **onClick** event attribute 'removeItem()', and put any text inside.
 
     At this point, you should have this in your HTML file.
 
