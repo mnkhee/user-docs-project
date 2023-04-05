@@ -33,7 +33,7 @@ This section will go focus on deleting data from your browser's local storage.
     </html>
     ```
 
-2. Define a function called 'removeItem()' in your javascript file.
+2. Create a function called 'removeItem()' in your javascript file.
 
     ```js
     function removeItem() {
@@ -43,7 +43,7 @@ This section will go focus on deleting data from your browser's local storage.
 
 ## Delete Data from your Browser's Local Storage
 
-1. Grab data by using document.getElementById().
+1. Create a variable called 'item'. Make this variable grab data by using document.getElementById().
 
     ```{.js hl_lines="2"}
     function removeItem() {
