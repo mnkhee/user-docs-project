@@ -7,9 +7,9 @@ markdown_extensions:
 
 nav:
   - 'Introduction': 'index.md'
-  - 'Creating data on local storage': '/tutorials/creating'
-  - 'Reading data on local storage': '/tutorials/reading'
-  - 'Deleting data on local storage': '/tutorials/deleting'
+  - 'Creating data on local storage': 'creating.md'
+  - 'Reading data on local storage': 'reading.md'
+  - 'Deleting data on local storage': 'deleting.md'
   - 'Glossary': 'glossary.md'
   - 'Troubleshooting Guide': 'troubleshooting.md'
 
