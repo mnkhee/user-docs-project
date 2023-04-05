@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section will go focus on deleting data from your browser's local storage.
+This section will go cover the process of deleting data stored in your browser's local storage.
 
 ## Setup
 
