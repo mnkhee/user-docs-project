@@ -3,12 +3,17 @@
 ## Overview
 
 This section will focus on the process of deleting data stored in your browser's local storage.
+!!! tip "Pre-requisites"
+    This tutorial is a continuation on the [**reading tutorial**](reading.md). If you have not completed it, you will need to have setup data inside your browser's local storage on your own.
+    <br> **There is no guarantee that the data you have entered on your own will be compatible with our code**. Continue at your own risk!
 
 ## Setup
 
-1. Create a button tag below the previous button tag in your HTML file. Give it an id attribute 'removeItem', an onClick event attribute 'removeItem()', and put any text inside.
+1. Create a button tag in a new line below the existing button tags in your HTML file.
 
-    At this point, you should have this in your HTML file.
+2. Give it an id attribute 'removeItem', an onClick event attribute 'removeItem()', and put any text inside.
+
+    At this point, your HTML file should look like this.
 
     ```html hl_lines="17"
     <!DOCTYPE html>
@@ -33,7 +38,7 @@ This section will focus on the process of deleting data stored in your browser's
     </html>
     ```
 
-2. Create a function called 'removeItem()' in your javascript file.
+3. Create a function called 'removeItem()' in your JavaScript file.
 
     ```js
     function removeItem() {
@@ -43,7 +48,7 @@ This section will focus on the process of deleting data stored in your browser's
 
 ## Delete Data from your Browser's Local Storage
 
-1. Inside the function you created in the setup, removeItem(), create a variable called 'item' and use the document.getElementById() method to retrieve data and store it in the 'item' variable.
+1. Inside the function removeItem(), create a variable called 'item' and use the document.getElementById() method to retrieve data and store it in the 'item' variable.
 
     ```{.js hl_lines="2"}
     function removeItem() {
@@ -51,7 +56,7 @@ This section will focus on the process of deleting data stored in your browser's
     }
     ```
 
-2. Remove data by using localStorage.removeItem().
+2. Add the functionality to remove data from your local storage by using localStorage.removeItem().
 
     ```{.js hl_lines="3"}
     function removeItem() {
@@ -60,7 +65,7 @@ This section will focus on the process of deleting data stored in your browser's
     }
     ```
 
-3. Reload the window by using window.location.reload().
+3. Add the functionality to reload the window by using window.location.reload().
 
     ```{.js hl_lines="4"}
     function removeItem() {
@@ -80,8 +85,8 @@ This section will focus on the process of deleting data stored in your browser's
     <br> ![deleting-data](/images/deleting/deleting-data.png)
 8. Press the 'Delete Data' button.
 
-    At this point, your browser will reload and the data will be deleted.
+    At this point, your browser will reload and the data will be deleted from the local storage.
 
 ## Conclusion
 
-By the end of this section, you will be able to delete data from your browser's local storage.
+Congratulations! If you made it to the end of this section with no issues, you have successfully deleted data on your web browser's local storage.

@@ -11,7 +11,7 @@ This section will focus on reading and displaying data from your web browser's l
 
 1. Create a button tag below the previous button tag in your HTML file.
 
-2. Give it an id attribute 'displayData', an onClick event attribute 'displayOutput', and put any text inside.
+2. Give it an id attribute 'displayData', an onClick event attribute 'displayOutput', and put any text inside it.
 
     At this point, you should have this in your HTML file.
 
@@ -109,4 +109,4 @@ These set of instructions will go over how to display everything saved to your b
 
 ## Conclusion
 
-Congratulations! If you made it to the end of this section with no issues, you have successfully reading data on your web browser's local storage and displaying it using the browser's console.
+Congratulations! If you made it to the end of this section with no issues, you have successfully read data on your web browser's local storage and displayed it using the browser's console.

@@ -15,7 +15,7 @@ This section will focus on creating and storing unique data on your web browser.
 4. Create an HTML file by clicking on File > New File..., and name it index.html.
     <br> ![create-file](/images/creating/create-file.png)
 
-5. Create a Javascript file using File > New File; name it index.js.
+5. Create a JavaScript file using File > New File; name it index.js.
 
     !!! tip "Important"
         You can name the JavaScript file any valid filename, however it is recommended to name it with the same name as the HTML file you plan to link it to. <br>
@@ -55,7 +55,9 @@ This section will focus on creating and storing unique data on your web browser.
 3. In the HTML document head, insert a blank line after line 7.
 4. Link your JavaScript file you created during the tutorial setup.
 5. Create an input tag within the body of the HTML file. Give it an id attribute 'createInput'.
-6. Create a button tag right below your input tag. Give it the id attribute 'createButton', and the onClick attribute 'submitInput()', and put any text inside it.
+6. Create a button tag right below your input tag.
+
+7. Give it the id attribute 'createButton', and the onClick attribute 'submitInput()', and put any text inside it.
 
     ```html
     <!DOCTYPE html>
@@ -78,7 +80,7 @@ This section will focus on creating and storing unique data on your web browser.
     </html>
     ```
 
-7. In your JavaScript file, create a function with the following code block:
+8. In your JavaScript file, create a function with the following code block:
 
     ```js
     function submitInput() {
@@ -87,9 +89,9 @@ This section will focus on creating and storing unique data on your web browser.
     }
     ```
 
-8. Open your HTML file by dragging it into a compatible browser.
-9. Type something into the input box.
-10. Hit the button to submit the unique data into the browser’s local storage.
+9. Open your HTML file by dragging it into a compatible browser.
+10. Type something into the input box.
+11. Hit the button to submit the unique data into the browser’s local storage.
 
     ??? note "Checking local storage on Google Chrome"
         To check local storage data, you can right-click on a webpage and click on 'Inspect'.
