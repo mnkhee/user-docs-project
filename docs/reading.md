@@ -96,13 +96,13 @@ These set of instructions will go over how to display everything saved to your b
 4. Open your HTML by dragging it onto a compatible browser.
 5. Hit the 'Display data' button.
 6. Right click on the webpage. This will open up a menu.
-    <br> ![right-click](/images/reading/right-click.png)
+    <br> ![right-click](right-click.png)
 6. Open your browser's Developer Tools by clicking 'Inspect', or your browser's equivalent.
-    <br> ![access-developer-tools](/images/reading/access-developer-tools.png)
+    <br> ![access-developer-tools](access-developer-tools.png)
 7. Navigate to the console tab.
-    <br> ![access-console](/images/reading/access-console.png)
+    <br> ![access-console](access-console.png)
     At this point, you will see all data stored in your browser's local storage.
-    <br> ![console-log](/images/reading/console-log.png)
+    <br> ![console-log](console-log.png)
 
     !!! warning "Warning"
         If your local storage data was wiped, or you have not completed our creating tutorial, the data may not display. If this is the case, please enter some new data and try again.

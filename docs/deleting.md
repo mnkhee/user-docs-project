@@ -77,12 +77,12 @@ This section will focus on reading data -- the D of CRU**D**. To learn this skil
 
 4. Open your HTML by dragging it onto a compatible browser.
 5. Open developer tools, and navigate to Application.
-    <br> ![application](/images/deleting/application.png)
+    <br> ![application](application.png)
 6. Click on your local host address under 'Local Storage' tab.
-    <br> ![application-continued](/images/deleting/application-continued.png)
+    <br> ![application-continued](application-continued.png)
     At this point, you will see key value pairs. This represents the data stored on your browser's local storage.
 7. Enter the key of the data you want to remove into the input box.
-    <br> ![deleting-data](/images/deleting/deleting-data.png)
+    <br> ![deleting-data](deleting-data.png)
 8. Press the 'Delete Data' button.
 
     At this point, your browser will reload and the data will be deleted from the local storage.

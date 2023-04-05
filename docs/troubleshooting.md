@@ -14,7 +14,7 @@
 
     ??? tip "On Windows 10..."
         You can check your permissions by right clicking the directory you want to create your folder in, and selecting 'Properties', and traversing to the 'Security' tab.
-        ![permissions](/images/troubleshooting/permissions.png)
+        ![permissions](permissions.png)
 
 5. **I don't understand the terminology used in the tutorials.**
     <br> There are finalized code blocks in each tutorial that you can copy directly onto your JavaScript or HTML files. If you wish to learn more about how they work, [W3Schools](https://w3schools.com/) is an excellent resource for learning HTML and JavaScript.
