@@ -102,4 +102,4 @@ This section will focus on creating and storing unique data on your web browser.
 
 ## Conclusion
 
-by the end of this section, you will have successfully created and stored data on your web browsers local storage.
+Congratulations! If you made it to the end of this section with no issues, you have successfully created and stored data on your web browser's local storage.
