@@ -11,7 +11,7 @@ Welcome! These tutorials are designed to help you learn how to create, read, and
 
 ## Target Audience
 
-These tutorials are targeted towards people who are just starting out with web development -- however, people of all levels may follow alongside the tutorials.
+These tutorials are targeted towards people who are just starting out with front-end web development -- however, people of all levels may follow alongside the tutorials.
 <br> While there are no real pre-requisites to following our tutorials, it is recommended to read about some of the HTML tags and attributes we will be using in our tutorials online.
 <br> We recommend using [W3Schools](https://w3schools.com/) to search for anything related to HTML and CSS.
 
@@ -21,8 +21,6 @@ The required software for these tutorials are as followed:
 
 - <a name='browsers'></a> Any browser that can run JavaScript ([**Google Chrome**](https://www.google.com/intl/en_ca/chrome/), [**Mozilla Firefox**](https://www.mozilla.org/en-CA/firefox/new/), [**Microsoft Edge**](https://www.microsoft.com/en-us/edge/download?form=MA13FJ), etc)
 - [**Visual Studio Code**](https://code.visualstudio.com/download), v1.70 or later
-
-## Typographical Conventions
 
 ## Alert/Warning Messages
 
