@@ -43,7 +43,7 @@ This section will go focus on deleting data from your browser's local storage.
 
 ## Delete Data from your Browser's Local Storage
 
-1. Create a variable called 'item'. Make this variable grab data by using document.getElementById().
+1. Inside the function you created in the setup, removeItem(), create a variable called 'item' and use the document.getElementById() method to retrieve data and store it in the 'item' variable.
 
     ```{.js hl_lines="2"}
     function removeItem() {
