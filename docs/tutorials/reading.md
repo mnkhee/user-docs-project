@@ -110,7 +110,4 @@ These set of instructions will go over how to display everything saved to your b
 
 ## Conclusion
 
-By the end of this section, you will be able to:
-
-- Display most recently stored to the console
-- Display all local storage data to the console
+Congratulations! If you made it to the end of this section with no issues, you have successfully reading data on your web browser's local storage and displaying it using the browser's console.
