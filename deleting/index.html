@@ -40,8 +40,11 @@
     
     
   
+    
+    
   
-  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2Z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-3.42 14-.95-4.08 3.16-2.73-4.17-.36L12 6l-1.62 3.84-4.17.36 3.16 2.73L8.42 17 12 14.84 15.58 17Z"/></svg>');}</style>
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2Z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-3.42 14-.95-4.08 3.16-2.73-4.17-.36L12 6l-1.62 3.84-4.17.36 3.16 2.73L8.42 17 12 14.84 15.58 17Z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 1 12 12 12 12 0 0 1-12 12A12 12 0 0 1 0 12 12 12 0 0 1 12 0m0 2A10 10 0 0 0 2 12c0 2.4.85 4.6 2.26 6.33L18.33 4.26A9.984 9.984 0 0 0 12 2m0 20a10 10 0 0 0 10-10c0-2.4-.85-4.6-2.26-6.33L5.67 19.74A9.984 9.984 0 0 0 12 22Z"/></svg>');}</style>
 
 
     
@@ -530,11 +533,24 @@
 </li>
 <li>Open developer tools, and navigate to Application.
     <br> <img alt="application" src="../application.png" /></li>
-<li>Click on your local host address under 'Local Storage' tab.
+<li>
+<p>Click on your local host address under 'Local Storage' tab.
     <br> <img alt="application-continued" src="../application-continued.png" />
-    At this point, you will see key value pairs. This represents the data stored on your browser's local storage.</li>
-<li>Enter the key of the data you want to remove into the input box.
-    <br> <img alt="deleting-data" src="../deleting-data.png" /></li>
+    At this point, you will see key value pairs. This represents the data stored on your browser's local storage.</p>
+<div class="admonition failure">
+<p class="admonition-title">If you don't see any key value pairs...</p>
+<p>Make sure you followed our previous tutorials to setup the data into your local storage, and that you are not working in the incognito mode of your browser. Check if your data creation function works by typing and submitting some data, and try removing that data.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Local host address</p>
+<p>Your local host address will typically be 127.0.0.1:XXXX, with XXXX being some four digit port number.
+<br> If you do not see this address on the list, look for another address that begins with 127 and check if they contain the data you are looking for.</p>
+</div>
+</li>
+<li>
+<p>Enter the name of the key linked to the value/data you want to remove into the input box.
+    <br> <img alt="deleting-data" src="../deleting-data.png" /></p>
+</li>
 <li>
 <p>Press the 'Delete Data' button.
     <br> <img alt="delete-button" src="../delete-button.png" /></p>
