@@ -34,7 +34,7 @@ To provide readers with an outline of the topic before diving into the steps, an
 
 To summarize what the reader would have accomplished by following the guide, a conclusion was added at the end.
 
-Throughout the tutorials, there will be messages designed to give you relevant information.
+Throughout the tutorials, the reader come across messages that are intended to provide them with relevant information.
 
 ![alert-msg](/docs/alert-msg.png)
 
