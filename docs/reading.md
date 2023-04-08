@@ -93,6 +93,9 @@ These set of instructions will go over how to display everything saved to your b
     !!! failure "If you do not see anything in your local storage..."
         Make sure you are not working in incognito mode. If your local storage data was wiped, or you have not completed our creating tutorial, the data may not display. Please start again from our [creating](creating.md) tutorial if either of these are the case.
 
+    !!! success "Success"
+        If you did the steps correctly, you will see all data stored in your browser's local storage displayed in the console. Well done!
+
 ## Conclusion
 
 Congratulations! If you made it to the end of this section with no issues, you have successfully read data on your web browser's local storage and displayed it using the browser's console.

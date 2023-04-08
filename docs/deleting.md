@@ -104,6 +104,9 @@ This section will focus on reading data -- the D of CRU**D**. To learn this skil
 
     At this point, your browser will reload and the data will be deleted from the local storage.
 
+    !!! success "Success"
+        If you did the steps correctly, then your browser will reload and the data will be deleted from the local storage. Well done!
+
 ## Conclusion
 
 Congratulations! If you made it to the end of this section with no issues, you have successfully deleted data on your web browser's local storage.

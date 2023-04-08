@@ -39,3 +39,6 @@ Throughout the tutorials, there will be messages designed to give you relevant i
 
 !!! note "Info"
     This message is designed to inform you about additional non-crucial information or tips.
+
+!!! success "Success"
+    This message is designed to inform you about what outcome you should see to indicate a successful procedure.

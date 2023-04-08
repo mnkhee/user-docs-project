@@ -108,6 +108,9 @@ This section will focus on creating and storing unique data -- the C of **C**RUD
         <br> ![inspect-three](inspect-3.png)
         <br> If you have data stored on your browser's local storage, then it should display on the right.
 
+    !!! success "Success?"
+        It will not be apparent right away if you did the steps correctly as we do not have a way to read the data yet. To confirm that you have done the steps correctly, please proceed to [Reading Data Tutorial](reading.md).
+
 ## Conclusion
 
 Congratulations! If you made it to the end of this section with no issues, you have successfully created and stored data on your web browser's local storage.
