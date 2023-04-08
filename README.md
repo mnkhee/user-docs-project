@@ -44,7 +44,13 @@ We wanted our user guide to be accessible to readers who may be new to coding or
 
 ## Conclusion
 
-This document went over our understanding of CRD in Javascript, which was something we learnt in our COMP 1537 - Web Development course.
+This document went over our understanding of CRD in Javascript, which was something we learnt in our COMP 1537 - Web Development course. The document also instructs users on how to use three of the four main functions for manipulating data, CRUD.
+
+These functions include:
+
+- Creating data.
+- Reading data.
+- Deleting data.
 
 We were given an opportunity to practice writing clear and concise instructions for user's to follow, which is a skill that can be applied to in the future.
 
