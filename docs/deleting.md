@@ -92,6 +92,7 @@ This section will focus on reading data -- the D of CRU**D**. To learn this skil
 5. Enter the key of the data you want to remove into the input box.
     <br> ![deleting-data](deleting-data.png)
 6. Press the 'Delete Data' button.
+    <br> ![delete-button](delete-button.png)
 
     At this point, your browser will reload and the data will be deleted from the local storage.
 
