@@ -1,7 +1,7 @@
 # Troubleshooting Guide
 
 1. **I can't see any of the data after finishing the reading tutorial.**
-<br> If you can't see the data on your console, make sure that you have properly added the data into the local storage.
+<br> If you can't see the data on your console, make sure that you have properly added the data into the local storage. If you were working in incognito mode, it is possible that your data may have been wiped since the last time you opened your browser. If that is the case, you may have to start again.
 
 2. **My browser doesn't have a developer tools function.**
 <br> Install [**Google Chrome**](https://www.google.com/intl/en_ca/chrome/), [**Mozilla Firefox**](https://www.mozilla.org/en-CA/firefox/new/), [**Microsoft Edge**](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) or any other browser that supports that function.
