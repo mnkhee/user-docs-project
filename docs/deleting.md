@@ -48,26 +48,9 @@ This section will focus on reading data -- the D of CRU**D**. To learn this skil
 
 ## Delete Data from your Browser's Local Storage
 
-1. Inside the function removeItem(), create a variable called 'item' and use the document.getElementById() method to retrieve data and store it in the 'item' variable.
+1. Inside the function you created in the tutorial setup, removeOutput, insert the following code block.
 
-    ```{.js hl_lines="2"}
-    function removeItem() {
-        var item = document.getElementById('createInput');
-    }
-    ```
-
-2. Add the functionality to remove data from your local storage by using localStorage.removeItem().
-
-    ```{.js hl_lines="3"}
-    function removeItem() {
-        var item = document.getElementById('createInput');
-        localStorage.removeItem(item);
-    }
-    ```
-
-3. Add the functionality to reload the window by using window.location.reload().
-
-    ```{.js hl_lines="4"}
+    ```js
     function removeItem() {
         var item = document.getElementById('createInput');
         localStorage.removeItem(item);
@@ -75,15 +58,40 @@ This section will focus on reading data -- the D of CRU**D**. To learn this skil
     }
     ```
 
-4. Open your HTML by dragging it onto a compatible browser.
-5. Open developer tools, and navigate to Application.
+    This is a function that will delete data stored in your browser's local storage.
+
+    At this point, your JavaScript file contains the following:
+
+    ```js
+        function submitInput() {
+    var input = document.getElementById("createInput").value;
+    localStorage.setItem(input, JSON.stringify(input));
+    }
+
+    function displayOutput() {
+        for (var i = 0; i < localStorage.length; i++) {
+            var key = localStorage.key(i);
+            var data = localStorage.getItem(key);
+            console.log(data);
+        }
+    }
+
+    function removeItem() {
+        var item = document.getElementById('createInput');
+        localStorage.removeItem(item);
+        window.location.reload();
+    }
+    ```
+
+2. Open your HTML by dragging it onto a compatible browser.
+3. Open developer tools, and navigate to Application.
     <br> ![application](application.png)
-6. Click on your local host address under 'Local Storage' tab.
+4. Click on your local host address under 'Local Storage' tab.
     <br> ![application-continued](application-continued.png)
     At this point, you will see key value pairs. This represents the data stored on your browser's local storage.
-7. Enter the key of the data you want to remove into the input box.
+5. Enter the key of the data you want to remove into the input box.
     <br> ![deleting-data](deleting-data.png)
-8. Press the 'Delete Data' button.
+6. Press the 'Delete Data' button.
 
     At this point, your browser will reload and the data will be deleted from the local storage.
 

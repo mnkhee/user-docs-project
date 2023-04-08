@@ -54,27 +54,14 @@ These set of instructions will go over how to display everything saved to your b
     ```js
     function displayOutput() {
         for (var i = 0; i < localStorage.length; i++) {
-
+            var key = localStorage.key(i);
+            var data = localStorage.getItem(key);
+            console.log(data);
         }
     }
     ```
 
     This is a loop that will let you access every variable inside your local storage.
-
-2. Add the following 2 lines into the for-loop.
-
-    ```js
-    var key = localStorage.key(i);
-    var data = localStorage.getItem(key);
-    ```
-
-    This code, in tandem with the for-loop, lets you reference piece of data that you currently have stored in your browser's local storage.
-
-3. Add this line after the "var data..." line that will allow you to view the data later on in the browser's Developer Tools console.
-
-    ```js
-    console.log(data);
-    ```
 
     At this point, your JavaScript file contains the following:
 
@@ -93,13 +80,12 @@ These set of instructions will go over how to display everything saved to your b
     }
     ```
 
-4. Open your HTML by dragging it onto a compatible browser.
-5. Hit the 'Display data' button.
-6. Right click on the webpage. This will open up a menu.
+2. Open your HTML by dragging it onto a compatible browser.
+3. Hit the 'Display data' button.
+4. Right click on the webpage. This will open up a menu.
     <br> ![right-click](right-click.png)
-6. Open your browser's Developer Tools by clicking 'Inspect', or your browser's equivalent.
-    <br> ![access-developer-tools](access-developer-tools.png)
-7. Navigate to the console tab.
+5. Open your browser's Developer Tools by clicking 'Inspect', or your browser's equivalent.
+6. Navigate to the console tab.
     <br> ![access-console](access-console.png)
     At this point, you will see all data stored in your browser's local storage.
     <br> ![console-log](console-log.png)
