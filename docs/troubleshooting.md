@@ -18,3 +18,7 @@
 
 5. **I don't understand the terminology used in the tutorials.**
     <br> There are finalized code blocks in each tutorial that you can copy directly onto your JavaScript or HTML files. If you wish to learn more about how they work, [W3Schools](https://w3schools.com/) is an excellent resource for learning HTML and JavaScript.
+
+6. **Help! I'm getting a message about trusting the authors of the files!**
+    <br> ![trust](trust.png)
+    <br> That's totally fine! Since you are working on a folder that you created yourself, you know that there will not be any malicious files. You can click on 'Yes, I trust the authors', and proceed with our tutorials.

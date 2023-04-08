@@ -3,9 +3,9 @@
 ## Overview
 
 This section will focus on reading data -- the R of C**R**UD. To learn this skill, you will be applying it onto the data that currently exists inside your browser's local storage.
-!!! tip "Pre-requisites"
+!!! warning "Pre-requisites"
     This tutorial is a continuation on the [**creating tutorial**](creating.md). If you have not completed it, you will need to have setup data inside your browser's local storage on your own.
-    <br> **There is no guarantee that the data you have entered on your own will be compatible with our code**. Continue at your own risk!
+    <br> **If you choose not to follow our previous tutorial, there is no guarantee that the data you have entered on your own will be compatible with our code**. Continue at your own risk!
 
 ## Setup
 
@@ -90,8 +90,8 @@ These set of instructions will go over how to display everything saved to your b
     At this point, you will see all data stored in your browser's local storage.
     <br> ![console-log](console-log.png)
 
-    !!! warning "Warning"
-        If your local storage data was wiped, or you have not completed our creating tutorial, the data may not display. If this is the case, please enter some new data and try again.
+    !!! failure "If you do not see anything in your local storage..."
+        Make sure you are not working in incognito mode. If your local storage data was wiped, or you have not completed our creating tutorial, the data may not display. Please start again from our [creating](creating.md) tutorial if either of these are the case.
 
 ## Conclusion
 

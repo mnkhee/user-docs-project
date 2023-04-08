@@ -30,7 +30,7 @@ We decided to use VSCode to write in our markdown files since it has a built-in 
 
 We made sure our writing was easy to understand by focusing on being clear, concise, and comprehensive. We chose simple language, used straightforward sentences, and included all necessary information in a way that was easy for the reader to follow.
 
-To provide readers with an outline of the topic before diving into the steps, an overview was included in each tutorial. 
+To provide readers with an outline of the topic before diving into the steps, an overview was included in each tutorial.
 
 To summarize what the reader would have accomplished by following the guide, a conclusion was added at the end.
 

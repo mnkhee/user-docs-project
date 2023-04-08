@@ -14,7 +14,7 @@ Welcome! These tutorials are designed to help you learn how to create, read, and
 ## Target Audience
 
 These tutorials are targeted towards people who are just starting out with front-end web development -- however, people of all levels may follow alongside the tutorials.
-<br> While there are no real pre-requisites to following our tutorials, it is recommended to read about some of the HTML tags and attributes we will be using in our tutorials online.
+<br> **People unfamiliar with HTML and JavaScript should copy the code blocks we provide, while people who are familiar with those languages may code side-by-side with our tutorial. The primary HTML tags that experienced users should know about are tags such as [script](https://www.w3schools.com/tags/att_script_src.asp), [button](https://www.w3schools.com/tags/tag_button.asp), and [input](https://www.w3schools.com/tags/tag_input.asp).**
 <br> We recommend using [W3Schools](https://w3schools.com/) to search for anything related to HTML and CSS.
 
 ## Software Requirements
@@ -28,10 +28,13 @@ The required software for these tutorials are as followed:
 
 Throughout the tutorials, there will be messages designed to give you relevant information.
 
-!!! warning "Alert"
-    This message is designed to inform you about potential errors or common mistakes.
+!!! failure "Failure"
+    This message is designed to inform you about when something goes wrong and you need to go back to an earlier tutorial, or an earlier point in the current tutorial.
 
-!!! tip "Important"
+!!! warning "Alert"
+    This message is designed to inform you about common mistakes or errors people make.
+
+!!! tip "Tip"
     This message is designed to inform you about an important detail or useful suggestion.
 
 !!! note "Info"

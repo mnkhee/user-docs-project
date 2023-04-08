@@ -89,7 +89,15 @@ This section will focus on reading data -- the D of CRU**D**. To learn this skil
 4. Click on your local host address under 'Local Storage' tab.
     <br> ![application-continued](application-continued.png)
     At this point, you will see key value pairs. This represents the data stored on your browser's local storage.
-5. Enter the key of the data you want to remove into the input box.
+
+    !!! failure "If you don't see any key value pairs..."
+        Make sure you followed our previous tutorials to setup the data into your local storage, and that you are not working in the incognito mode of your browser. Check if your data creation function works by typing and submitting some data, and try removing that data.
+
+    !!! tip "Local host address"
+        Your local host address will typically be 127.0.0.1:XXXX, with XXXX being some four digit port number.
+        <br> If you do not see this address on the list, look for another address that begins with 127 and check if they contain the data you are looking for.
+
+5. Enter the name of the key linked to the value/data you want to remove into the input box.
     <br> ![deleting-data](deleting-data.png)
 6. Press the 'Delete Data' button.
     <br> ![delete-button](delete-button.png)

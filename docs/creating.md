@@ -17,7 +17,7 @@ This section will focus on creating and storing unique data -- the C of **C**RUD
 
 5. Create a JavaScript file using File > New File; name it index.js.
 
-    !!! tip "Important"
+    !!! tip "Naming Conventions"
         You can name the JavaScript file any valid filename, however it is recommended to name it with the same name as the HTML file you plan to link it to. <br>
         **For the remainder of this tutorial, we will be referring to files and variables as named in this tutorial. Copying our code blocks may result in errors if you decide to name the files/variables on your own volition.**
 
@@ -26,7 +26,7 @@ This section will focus on creating and storing unique data -- the C of **C**RUD
 1. Open the HTML file by double clicking it on the explorer menu. If the menu is not visible, click on View > Explorer.
     <br> ![explorer-menu](explorer-menu.png)
 
-    !!! info "Tip"
+    !!! info "If you want to skip ahead..."
         From steps 2 to 6, you may choose to follow the steps or you may copy the code block at the end of step 6.
 
 2. In the code editor window, type '!', and hit enter.
@@ -58,6 +58,7 @@ This section will focus on creating and storing unique data -- the C of **C**RUD
     ```html
     <script src="index.js"></script>
     ```
+
 5. Create an input tag within the body of the HTML file. Give it an id attribute 'createInput'.
 6. Create a button tag right below your input tag.
 
@@ -96,6 +97,7 @@ This section will focus on creating and storing unique data -- the C of **C**RUD
 9. Open your HTML file by dragging it into a compatible browser.
 10. Type something into the input box.
 11. Hit the button to submit the unique data into the browser’s local storage.
+12. You are done! **At this point, you should not see anything. That is totally expected**. Our [second tutorial](reading.md) will provide you with a method of reading your current data. If you want to check if you've followed our tutorial properly, but don't want to move onto our second tutorial, see the note below.
 
     ??? note "Checking local storage on Google Chrome"
         To check local storage data, you can right-click on a webpage and click on 'Inspect'.

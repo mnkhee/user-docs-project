@@ -27,6 +27,9 @@
 **HTML Document**: A file that contains HTML code.
 <br><br>
 
+**Incognito Mode**: Incognito mode is a privacy feature in some browsers that allows you to delete your session information when you close your browser.
+<br><br>
+
 **JavaScript**: A popular scripting language that is used to create dynamic web applications.
 <br><br>
 

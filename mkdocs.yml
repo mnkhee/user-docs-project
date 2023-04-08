@@ -21,6 +21,7 @@ theme:
       note: material/information
       warning: material/alert
       tip: material/star-box
+      failure: material/block-helper
   name: material
   palette:
     primary: light-green
